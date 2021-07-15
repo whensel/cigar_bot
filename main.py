@@ -7,7 +7,7 @@ driverPath = "/Users/macbook/Documents/webdrivers/chromedriver"
 options = webdriver.ChromeOptions()
 options.add_argument('log-level=3')
 
-options.headless = True
+options.headless = False
 # set to on to run
 driver = webdriver.Chrome(driverPath, options=options)
 
